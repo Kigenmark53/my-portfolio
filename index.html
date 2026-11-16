@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mark Kigen — Software Developer</title>
+
+  <meta name="description" content="Mark Kigen — software developer in Nairobi, Kenya. I build full-stack systems: Flask and Node backends, MySQL, Prisma and Neon data layers, and interfaces that ship." />
+  <meta name="author" content="Mark Kigen" />
+  <meta name="theme-color" content="#06060b" />
+  <link rel="canonical" href="https://kigenmark53.github.io/MyPortfolio/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mark Kigen — Software Developer" />
+  <meta property="og:description" content="Full-stack developer in Nairobi. Flask, Node, MySQL, Prisma, Java, Python — building systems that ship." />
+  <meta property="og:url" content="https://kigenmark53.github.io/MyPortfolio/" />
+  <meta property="og:image" content="https://kigenmark53.github.io/MyPortfolio/og-card.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mark Kigen — Software Developer" />
+  <meta name="twitter:description" content="Full-stack developer in Nairobi. Flask, Node, MySQL, Prisma, Java, Python." />
+  <meta name="twitter:image" content="https://kigenmark53.github.io/MyPortfolio/og-card.jpg" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+  <noscript>
+    <style>[data-reveal] { opacity: 1 !important; transform: none !important; }</style>
+  </noscript>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mark Kigen",
+    "jobTitle": "Software Developer",
+    "email": "mailto:kigenmark53@gmail.com",
+    "url": "https://kigenmark53.github.io/MyPortfolio/",
+    "address": { "@type": "PostalAddress", "addressLocality": "Nairobi", "addressCountry": "KE" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "KCA University" },
+    "knowsAbout": ["Software Engineering", "JavaScript", "Python", "Java", "C#", "Flask", "Node.js", "MySQL", "MongoDB"],
+    "sameAs": [
+      "https://github.com/Kigenmark53",
+      "https://www.linkedin.com/in/mark-kigen-806861365"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ambient background -->
+  <div class="scene" aria-hidden="true">
+    <div class="aurora aurora--violet"></div>
+    <div class="aurora aurora--cyan"></div>
+    <div class="aurora aurora--rose"></div>
+    <div class="grid-lines"></div>
+    <div class="grain"></div>
+    <div class="spotlight" id="spotlight"></div>
+  </div>
+
+  <header class="nav-wrap">
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a class="brand" href="#top" aria-label="Mark Kigen — home">
+        <span class="brand__mark">MK</span>
+        <span class="brand__text">
+          Mark Kigen
+          <small>software developer</small>
+        </span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav__menu" id="navMenu">
+        <a href="#work" data-nav>Work</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#stack" data-nav>Stack</a>
+        <a href="#path" data-nav>Path</a>
+        <a href="#contact" data-nav>Contact</a>
+        <a class="nav__cta" href="https://github.com/Kigenmark53" target="_blank" rel="noopener">
+          GitHub <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ───────────────────────── HERO ───────────────────────── -->
+    <section class="hero" id="top">
+      <div class="shell hero__grid">
+        <div class="hero__copy">
+          <p class="pill reveal" data-reveal>
+            <span class="dot" aria-hidden="true"></span>
+            Open to internships &amp; junior roles — Nairobi, KE
+          </p>
+
+          <h1 class="hero__title reveal" data-reveal style="--d:.06s">
+            I build software<br />
+            that people<br />
+            <em>actually use.</em>
+          </h1>
+
+          <p class="hero__lede reveal" data-reveal style="--d:.12s">
+            I&rsquo;m <strong>Mark Kigen</strong>, a software development student at KCA University
+            who ships full&#8209;stack systems — Flask and Node backends, real database layers,
+            and front ends that don&rsquo;t need a manual.
+          </p>
+
+          <div class="hero__actions reveal" data-reveal style="--d:.18s">
+            <a class="btn btn--primary" href="#work">
+              <span>See the work</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--ghost" href="mailto:kigenmark53@gmail.com">Get in touch</a>
+          </div>
+
+          <dl class="hero__stats reveal" data-reveal style="--d:.24s">
+            <div>
+              <dt>Public repos</dt>
+              <dd><span data-count="16">16</span>+</dd>
+            </div>
+            <div>
+              <dt>Languages</dt>
+              <dd><span data-count="7">7</span></dd>
+            </div>
+            <div>
+              <dt>Based in</dt>
+              <dd>Nairobi</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="hero__visual reveal" data-reveal style="--d:.2s">
+          <div class="code-card" data-tilt>
+            <div class="code-card__bar">
+              <span class="code-card__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="code-card__file">about-me.js</span>
+              <span class="code-card__live" aria-hidden="true">live</span>
+            </div>
+            <pre class="code"><code><span class="c-key">const</span> <span class="c-var">mark</span> = {
+  <span class="c-prop">role</span>: <span class="c-str">"Software Developer"</span>,
+  <span class="c-prop">school</span>: <span class="c-str">"KCA University"</span>,
+  <span class="c-prop">focus</span>: [
+    <span class="c-str">"full-stack web"</span>,
+    <span class="c-str">"data-backed systems"</span>,
+    <span class="c-str">"clean interfaces"</span>
+  ],
+  <span class="c-prop">ships</span>: <span class="c-bool">true</span><span class="caret" aria-hidden="true"></span>
+};</code></pre>
+            <div class="code-card__glow" aria-hidden="true"></div>
+          </div>
+
+          <div class="float-tag float-tag--a">Flask</div>
+          <div class="float-tag float-tag--b">Node.js</div>
+          <div class="float-tag float-tag--c">MySQL</div>
+        </div>
+      </div>
+
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <div class="marquee__group"><span>Python</span><i>◆</i><span>JavaScript</span><i>◆</i><span>Java</span><i>◆</i><span>C#</span><i>◆</i><span>Flask</span><i>◆</i><span>Node.js</span><i>◆</i><span>MySQL</span><i>◆</i><span>MongoDB</span><i>◆</i><span>Prisma</span><i>◆</i><span>Redis</span><i>◆</i><span>Git</span><i>◆</i><span>Common Lisp</span><i>◆</i></div>
+          <div class="marquee__group"><span>Python</span><i>◆</i><span>JavaScript</span><i>◆</i><span>Java</span><i>◆</i><span>C#</span><i>◆</i><span>Flask</span><i>◆</i><span>Node.js</span><i>◆</i><span>MySQL</span><i>◆</i><span>MongoDB</span><i>◆</i><span>Prisma</span><i>◆</i><span>Redis</span><i>◆</i><span>Git</span><i>◆</i><span>Common Lisp</span><i>◆</i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── WORK ───────────────────────── -->
+    <section class="section" id="work">
+      <div class="shell">
+        <header class="section__head">
+          <p class="eyebrow reveal" data-reveal><span>01</span> Selected work</p>
+          <h2 class="section__title reveal" data-reveal style="--d:.05s">
+            Six systems, <em>built end to end</em>
+          </h2>
+          <p class="section__lede reveal" data-reveal style="--d:.1s">
+            Not tutorials. Each of these is a real repository — schemas, auth, APIs, and the
+            front end that ties it together.
+          </p>
+        </header>
+
+        <div class="work-grid">
+          <!-- 1 -->
+          <article class="card card--wide reveal" data-reveal data-tilt>
+            <div class="card__art card__art--water" aria-hidden="true">
+              <span class="card__art-label">Kahungu-Waters</span>
+              <svg class="card__art-svg" viewBox="0 0 200 120" fill="none">
+                <path d="M0 78c26 0 26-22 52-22s26 30 52 30 26-40 52-40 26 18 44 18" stroke="currentColor" stroke-width="1.4" opacity=".7"/>
+                <path d="M0 92c26 0 26-22 52-22s26 30 52 30 26-40 52-40 26 18 44 18" stroke="currentColor" stroke-width="1.4" opacity=".35"/>
+                <circle cx="150" cy="42" r="3" fill="currentColor"/>
+                <circle cx="104" cy="72" r="2" fill="currentColor" opacity=".8"/>
+              </svg>
+            </div>
+            <div class="card__body">
+              <div class="card__meta"><span class="tag tag--live">Full stack</span><span class="card__year">Database systems</span></div>
+              <h3>Kahungu Waters</h3>
+              <p>
+                A water utility management platform with a proper database layer underneath:
+                Node.js services on Neon Postgres, Prisma for the schema, Redis for fast reads.
+              </p>
+              <ul class="chips">
+                <li>Node.js</li><li>Prisma</li><li>Neon</li><li>Redis</li><li>JavaScript</li>
+              </ul>
+              <a class="card__link" href="https://github.com/Kigenmark53/Kahungu-Waters" target="_blank" rel="noopener">
+                View repository
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="card reveal" data-reveal style="--d:.06s" data-tilt>
+            <div class="card__art card__art--blush" aria-hidden="true">
+              <span class="card__art-label">Blush</span>
+              <div class="card__art-orb"></div>
+            </div>
+            <div class="card__body">
+              <div class="card__meta"><span class="tag">E-commerce</span><span class="card__year">Flask · MySQL</span></div>
+              <h3>Blush Web</h3>
+              <p>A storefront and admin back office: Flask routes, MySQL persistence, and a hand-built HTML/CSS/JS front end.</p>
+              <ul class="chips"><li>Python</li><li>Flask</li><li>MySQL</li><li>JavaScript</li></ul>
+              <a class="card__link" href="https://github.com/Kigenmark53/Blush-Web" target="_blank" rel="noopener">
+                View repository
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="card reveal" data-reveal style="--d:.1s" data-tilt>
+            <div class="card__art card__art--scrape" aria-hidden="true">
+              <span class="card__art-label">pipeline.py</span>
+              <div class="card__art-bars"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="card__body">
+              <div class="card__meta"><span class="tag">Automation</span><span class="card__year">Python</span></div>
+              <h3>Research Scraper Agent</h3>
+              <p>An automated B2B lead-generation pipeline: crawl, verify, enrich, then export clean spreadsheets for export-market research.</p>
+              <ul class="chips"><li>Python</li><li>Web scraping</li><li>openpyxl</li></ul>
+              <a class="card__link" href="https://github.com/Kigenmark53/Research-Scraper-Agent" target="_blank" rel="noopener">
+                View repository
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="card reveal" data-reveal style="--d:.14s" data-tilt>
+            <div class="card__art card__art--clinic" aria-hidden="true">
+              <span class="card__art-label">risk-eval</span>
+              <svg class="card__art-svg" viewBox="0 0 200 120" fill="none">
+                <path d="M10 86h30l10-26 12 46 12-64 10 44h96" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10 86h30l10-26 12 46 12-64 10 44h96" stroke="currentColor" stroke-width="6" opacity=".12" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="card__body">
+              <div class="card__meta"><span class="tag">Health tech</span><span class="card__year">Common Lisp</span></div>
+              <h3>Clinical Decision Support</h3>
+              <p>Reads clinical examination reports and scores patient risk, explaining which findings drive the result.</p>
+              <ul class="chips"><li>Common Lisp</li><li>HTML</li><li>Rule engine</li></ul>
+              <a class="card__link" href="https://github.com/Kigenmark53/Clinical_Decision_Support_System_Lisp" target="_blank" rel="noopener">
+                View repository
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 5 -->
+          <article class="card card--half reveal" data-reveal style="--d:.18s" data-tilt>
+            <div class="card__art card__art--infra" aria-hidden="true">
+              <span class="card__art-label">topology</span>
+              <svg class="card__art-svg" viewBox="0 0 200 120" fill="none">
+                <rect x="18" y="22" width="34" height="20" rx="5" stroke="currentColor" stroke-width="1.3"/>
+                <rect x="82" y="52" width="34" height="20" rx="5" stroke="currentColor" stroke-width="1.3"/>
+                <rect x="148" y="26" width="34" height="20" rx="5" stroke="currentColor" stroke-width="1.3"/>
+                <rect x="40" y="88" width="34" height="20" rx="5" stroke="currentColor" stroke-width="1.3" opacity=".55"/>
+                <path d="M52 42v18h30M116 62v26H74M116 62h32V46" stroke="currentColor" stroke-width="1.2" opacity=".65" stroke-dasharray="3 3"/>
+                <circle cx="99" cy="62" r="2.5" fill="currentColor"/>
+              </svg>
+            </div>
+            <div class="card__body">
+              <div class="card__meta"><span class="tag">Visualisation</span><span class="card__year">JavaScript</span></div>
+              <h3>Infrastructure Simulator</h3>
+              <p>Map out a server architecture on screen, then watch mock data flow between the nodes you placed.</p>
+              <ul class="chips"><li>JavaScript</li><li>HTML</li><li>Interactive UI</li></ul>
+              <a class="card__link" href="https://github.com/Kigenmark53/Infrastracture-Simulator-Api" target="_blank" rel="noopener">
+                View repository
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="card card--half reveal" data-reveal style="--d:.22s" data-tilt>
+            <div class="card__art card__art--library" aria-hidden="true">
+              <span class="card__art-label">Java EE</span>
+              <div class="card__art-shelves"><i></i><i></i><i></i><i></i></div>
+            </div>
+            <div class="card__body">
+              <div class="card__meta"><span class="tag">Enterprise</span><span class="card__year">Java EE</span></div>
+              <h3>Library Management System</h3>
+              <p>A web library platform on the Java EE stack with Apache Derby — secure sign-in, role-aware access, and catalogue operations.</p>
+              <ul class="chips"><li>Java EE</li><li>Apache Derby</li><li>JDBC</li><li>HTML</li></ul>
+              <a class="card__link" href="https://github.com/Kigenmark53/Library-Management-System-Java" target="_blank" rel="noopener">
+                View repository
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 12L12 4M12 4H6M12 4v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <!-- lab -->
+        <div class="lab glass reveal" data-reveal>
+          <div class="lab__head">
+            <h3>Also in the lab</h3>
+            <p>Smaller builds, coursework, and experiments — all on GitHub.</p>
+          </div>
+          <ul class="lab__list">
+            <li><a class="lab__row" href="https://github.com/Kigenmark53/Gaming-project-mario" target="_blank" rel="noopener"><strong>Mario-style platformer</strong><span>C# · Unity</span></a></li>
+            <li><a class="lab__row" href="https://github.com/Kigenmark53/flying-car-cpp" target="_blank" rel="noopener"><strong>Flying vehicle simulator</strong><span>C++</span></a></li>
+            <li><div class="lab__row"><strong>Wage calculator</strong><span>C++</span></div></li>
+            <li><a class="lab__row" href="https://github.com/Kigenmark53/Simple-phoneTracker4you" target="_blank" rel="noopener"><strong>Phone tracker tool</strong><span>Python · HTML</span></a></li>
+            <li><div class="lab__row"><strong>Guessing game</strong><span>Python</span></div></li>
+            <li><div class="lab__row"><strong>Rock · Paper · Scissors</strong><span>Python</span></div></li>
+            <li><div class="lab__row"><strong>Habit tracker app</strong><span>Flask · MySQL · team</span></div></li>
+            <li><a class="lab__row" href="https://github.com/Kigenmark53/Val" target="_blank" rel="noopener"><strong>Valentine&rsquo;s card</strong><span>HTML · CSS · JS</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── ABOUT ───────────────────────── -->
+    <section class="section" id="about">
+      <div class="shell about">
+        <div class="about__copy">
+          <p class="eyebrow reveal" data-reveal><span>02</span> About</p>
+          <h2 class="section__title reveal" data-reveal style="--d:.05s">
+            Curious by default,<br /><em>shipping by habit.</em>
+          </h2>
+          <p class="reveal" data-reveal style="--d:.1s">
+            I&rsquo;m a software development student at <strong>KCA University</strong> in Nairobi. Most of
+            what I know came from building things that broke — a store that lost its session, a
+            database that needed normalising, a game loop that ran too fast.
+          </p>
+          <p class="reveal" data-reveal style="--d:.14s">
+            I like the unglamorous middle of software: modelling the data properly, wiring the API,
+            handling the error case nobody thought about. And I like finishing — a half-built system
+            teaches you nothing.
+          </p>
+          <p class="reveal" data-reveal style="--d:.18s">
+            Right now I&rsquo;m sharpening JavaScript and TypeScript, going deeper on backend
+            architecture, and looking for a team where I can learn from people who have shipped
+            more than I have.
+          </p>
+          <div class="about__links reveal" data-reveal style="--d:.22s">
+            <a class="link-arrow" href="https://github.com/Kigenmark53" target="_blank" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+            <a class="link-arrow" href="https://www.linkedin.com/in/mark-kigen-806861365" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+            <a class="link-arrow" href="mailto:kigenmark53@gmail.com">Email <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+
+        <aside class="about__side">
+          <div class="glass now-card reveal" data-reveal style="--d:.1s">
+            <p class="now-card__label">Currently</p>
+            <ul>
+              <li><span class="now-dot now-dot--on"></span> BSc Software Development, KCA University</li>
+              <li><span class="now-dot now-dot--on"></span> Building full-stack side projects</li>
+              <li><span class="now-dot"></span> Reading up on backend architecture</li>
+            </ul>
+          </div>
+
+          <div class="glass now-card reveal" data-reveal style="--d:.16s">
+            <p class="now-card__label">What I care about</p>
+            <ul class="care-list">
+              <li>Systems that stay simple as they grow</li>
+              <li>Data models you can defend</li>
+              <li>Interfaces that explain themselves</li>
+              <li>Code other people can pick up</li>
+            </ul>
+          </div>
+
+          <div class="glass quote-card reveal" data-reveal style="--d:.22s">
+            <blockquote>
+              &ldquo;Build it, break it, understand why.&rdquo;
+            </blockquote>
+            <cite>— how I learn</cite>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── STACK ───────────────────────── -->
+    <section class="section" id="stack">
+      <div class="shell">
+        <header class="section__head">
+          <p class="eyebrow reveal" data-reveal><span>03</span> Stack</p>
+          <h2 class="section__title reveal" data-reveal style="--d:.05s">Tools I reach for</h2>
+        </header>
+
+        <div class="stack-grid">
+          <div class="glass stack-card reveal" data-reveal>
+            <div class="stack-card__icon stack-card__icon--violet" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M4 5h16M4 12h16M4 19h10" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Front end</h3>
+            <ul class="chips chips--wrap">
+              <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive design</li><li>DOM &amp; animation</li>
+            </ul>
+          </div>
+
+          <div class="glass stack-card reveal" data-reveal style="--d:.06s">
+            <div class="stack-card__icon stack-card__icon--cyan" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="7" rx="2" stroke="currentColor" stroke-width="1.7"/><rect x="3" y="14" width="18" height="6" rx="2" stroke="currentColor" stroke-width="1.7"/><circle cx="7" cy="7.5" r="1" fill="currentColor"/><circle cx="7" cy="17" r="1" fill="currentColor"/></svg>
+            </div>
+            <h3>Back end</h3>
+            <ul class="chips chips--wrap">
+              <li>Python</li><li>Flask</li><li>Node.js</li><li>Java EE</li><li>REST APIs</li><li>Auth</li>
+            </ul>
+          </div>
+
+          <div class="glass stack-card reveal" data-reveal style="--d:.12s">
+            <div class="stack-card__icon stack-card__icon--rose" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="6" rx="8" ry="3" stroke="currentColor" stroke-width="1.7"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" stroke="currentColor" stroke-width="1.7"/></svg>
+            </div>
+            <h3>Data</h3>
+            <ul class="chips chips--wrap">
+              <li>MySQL</li><li>MongoDB</li><li>PostgreSQL (Neon)</li><li>Prisma</li><li>Redis</li><li>Apache Derby</li>
+            </ul>
+          </div>
+
+          <div class="glass stack-card reveal" data-reveal style="--d:.18s">
+            <div class="stack-card__icon stack-card__icon--emerald" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8.5" stroke="currentColor" stroke-width="1.7"/><path d="M12 7v5l3.5 2" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Languages &amp; craft</h3>
+            <ul class="chips chips--wrap">
+              <li>C#</li><li>C++</li><li>Java</li><li>Common Lisp</li><li>Git</li><li>GitHub</li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="stack-note reveal" data-reveal>
+          Also comfortable with: team collaboration, debugging under pressure, reading other people&rsquo;s code,
+          and explaining a technical decision in plain language.
+        </p>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── PATH ───────────────────────── -->
+    <section class="section" id="path">
+      <div class="shell">
+        <header class="section__head">
+          <p class="eyebrow reveal" data-reveal><span>04</span> Path</p>
+          <h2 class="section__title reveal" data-reveal style="--d:.05s">How I got here</h2>
+        </header>
+
+        <ol class="timeline">
+          <li class="timeline__item reveal" data-reveal>
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__body glass">
+              <p class="timeline__when">Now</p>
+              <h3>Building in the open</h3>
+              <p>Shipping personal and team projects across web, data, and desktop — from a Flask storefront to a Common Lisp risk engine.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal" data-reveal style="--d:.06s">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__body glass">
+              <p class="timeline__when">Ongoing</p>
+              <h3>BSc Software Development</h3>
+              <p>KCA University, Nairobi. Algorithms, databases, software engineering practice, and a lot of group work.</p>
+            </div>
+          </li>
+          <li class="timeline__item reveal" data-reveal style="--d:.12s">
+            <span class="timeline__dot" aria-hidden="true"></span>
+            <div class="timeline__body glass">
+              <p class="timeline__when">Foundations</p>
+              <h3>First programs, first bugs</h3>
+              <p>Started with Python and C++, then Java and C#. Console games and calculators turned into full web systems.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── CONTACT ───────────────────────── -->
+    <section class="section section--contact" id="contact">
+      <div class="shell">
+        <div class="contact glass reveal" data-reveal>
+          <div class="contact__glow" aria-hidden="true"></div>
+          <p class="eyebrow"><span>05</span> Contact</p>
+          <h2 class="contact__title">
+            Got something worth<br /><em>building?</em>
+          </h2>
+          <p class="contact__lede">
+            I&rsquo;m looking for an internship or junior developer role where I can contribute
+            from day one and keep learning. Freelance and collaboration enquiries are welcome too.
+          </p>
+
+          <div class="contact__actions">
+            <a class="btn btn--primary btn--lg" href="mailto:kigenmark53@gmail.com">
+              kigenmark53@gmail.com
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <button class="btn btn--ghost" type="button" data-copy="kigenmark53@gmail.com" id="copyEmail">
+              <span class="btn__text">Copy address</span>
+            </button>
+          </div>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__k">GitHub</span>
+              <a href="https://github.com/Kigenmark53" target="_blank" rel="noopener">github.com/Kigenmark53 <span aria-hidden="true">↗</span></a>
+            </li>
+            <li>
+              <span class="contact__k">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/mark-kigen-806861365" target="_blank" rel="noopener">in/mark-kigen-806861365 <span aria-hidden="true">↗</span></a>
+            </li>
+            <li>
+              <span class="contact__k">WhatsApp / Telegram</span>
+              <a href="https://wa.me/254725127562" target="_blank" rel="noopener">+254 725 127 562 <span aria-hidden="true">↗</span></a>
+            </li>
+            <li>
+              <span class="contact__k">Location</span>
+              <span class="contact__v">Nairobi, Kenya · EAT (UTC+3)</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <p>© <span id="year">2026</span> Mark Kigen. Built from scratch — HTML, CSS, JavaScript.</p>
+      <p class="footer__top"><a href="#top">Back to top <span aria-hidden="true">↑</span></a></p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
