@@ -3,8 +3,7 @@
 A hand-built personal portfolio: no frameworks, no build step, no dependencies.
 HTML, CSS and vanilla JavaScript, served straight from GitHub Pages.
 
-**Live:** https://kigenmark53.github.io/MyPortfolio/
-
+**Live:** https://my-portfolio-henna-ten-96.vercel.app/
 ---
 
 ## What's inside
